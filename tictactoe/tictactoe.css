@@ -1,0 +1,23 @@
+.name {
+    text-align : center;
+    font-size : 2em;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    margin: auto;
+}
+.row {
+    display: flex;
+}
+.cell {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5em;
+    cursor: pointer;
+}
